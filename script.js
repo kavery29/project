@@ -59,6 +59,7 @@ Array.from(boxes).forEach(element =>{
 })
 
 reset.addEventListener('click', ()=> {
+    document.querySelector('.info').innerText="Player 1 Begins";
     let boxtexts=document.querySelectorAll('.textbox');
     Array.from(boxtexts).forEach(element=>{
         element.innerText=''
