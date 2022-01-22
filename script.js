@@ -1,5 +1,5 @@
 console.log("welcome to tic tac toe")
-let music=new Audio("Voice 007.m4a")
+let music=new Audio("voice.m4a")
 let turn ="X"
 let gameover=false;
 let s1=0;
